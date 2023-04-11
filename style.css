@@ -14,7 +14,7 @@ nav-bar {
 }
  nav-bar h1 {
     
-    font-size: 5vw;
+    font-size: 4vw;
     
  }
 
@@ -59,13 +59,16 @@ intro {
 }
 
 .left-section h1 {
-    font-size: 4vw;
+    font-size: 2vw;
     color: maroon;
     letter-spacing: 1px;
 }
 
+.left-section h1 span {
+  font-size: 4vw;
+}
 .left-section p {
-    font-size: 3vw;
+    font-size: 2vw;
     color: midnightblue;
 }
 
@@ -270,6 +273,7 @@ footer .up h1 {
 
     font-weight: 500;
     color: #303030;
+    font-size: 3vw;
 
 }
 
@@ -374,12 +378,12 @@ h1 {
   align-items: center;
   justify-content: center;
   min-height: 35rem;
-  background-image: linear-gradient(to bottom, rgba(255, 168, 76, 0.6) 0%, rgba(255, 123, 13, 0.6) 100%), url("https://images.unsplash.com/photo-1446824505046-e43605ffb17f");
+  background-color: aliceblue;
   background-blend-mode: soft-light;
   background-size: cover;
   background-position: center center;
   padding: 2rem;
-  border-radius: 40px;
+  border-radius: 155px;
 }
 
 .bird {
@@ -571,5 +575,39 @@ h1 {
   }
   100% {
     transform: translateY(0vh) translateX(110vw) scale(0.45);
+  }
+}
+
+
+/******************************************************/
+/******************************************************/
+
+
+.animate-character
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   }
 }
