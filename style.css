@@ -31,11 +31,14 @@ nav-bar ul {
     list-style: none;
     gap: 10%;
     font-size: 1.5vw;
+    
 }
 
 ul a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    
 }
 
 
@@ -43,7 +46,9 @@ main {
     width: 80%;
     margin: 2rem auto;
 }
-
+header {
+  margin-bottom: 65px;
+}
 intro {
     display: flex;
     justify-content: space-around;
@@ -94,7 +99,7 @@ intro {
     width: 10vw;
     font-size: 1vw;
     border-style: none;
-    background-color: #00ABAE;
+    background-color: black;
     color: white;
     height: 5vw;
     border-radius: 40px;
@@ -332,6 +337,14 @@ footer .up h4 {
     background-color: RoyalBlue;
   }
 
+.btnn a {
+
+  text-decoration: none
+}
+
+.btn a:hover {
+  background-color: RoyalBlue;
+}
 
   /*********************************/
   /*********************************/
@@ -366,6 +379,7 @@ h1 {
   background-size: cover;
   background-position: center center;
   padding: 2rem;
+  border-radius: 40px;
 }
 
 .bird {
