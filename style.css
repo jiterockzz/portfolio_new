@@ -54,9 +54,6 @@ intro {
     justify-content: space-around;
     align-items: center;
 }
-.left-section {
-    margin-bottom: 102px;
-}
 
 .left-section h1 {
     font-size: 2vw;
@@ -93,8 +90,10 @@ intro {
 }
 
 .btnn {
-    display: flex;
-    gap: 5%;
+
+  display: flex;
+  justify-content: initial;
+  gap: 1vw;
 }
 
 
