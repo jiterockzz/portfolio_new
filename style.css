@@ -376,7 +376,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 35rem;
   background-color: aliceblue;
   background-blend-mode: soft-light;
   background-size: cover;
